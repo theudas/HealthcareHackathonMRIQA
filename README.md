@@ -12,7 +12,7 @@ Der Hack ist eine gemeinsame Initiative der Forschungsgruppe Medizin und Digital
 | Leitung | [Steffen Oeltze-Jafra](mailto:steffen.oeltze-jafra@med.ovgu.de)  | Emrah Düzel |  Robert Waschipky |
 | Ansprechpartner | [Max Dünnwald](mailto:max.duennwald@med.ovgu.de) | [Laura Dobisch](mailto:laura.dobisch@dzne.de) | [Marko Rak](mailto:marko.rak@med.ovgu.de) |
 
-Da wir uns nicht in Persona mit euch treffen können, haben wir für den Hack einen Raum im Videokonferenzsystem Zoom bereitgestellt. 
+Da wir uns nicht in persona mit euch treffen können, haben wir für den Hack einen Raum im Videokonferenzsystem Zoom bereitgestellt. 
 
 [To be linked]()
 
