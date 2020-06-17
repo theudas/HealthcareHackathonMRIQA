@@ -103,11 +103,3 @@ Wir werden sehen wer das Rennen macht…
  |
  |
  |
-| 02 |
- |
- |
- |
-| 03 |
- |
- |
- |
