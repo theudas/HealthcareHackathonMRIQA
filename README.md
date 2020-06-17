@@ -6,7 +6,7 @@ Willkommen auf der Projektseite zu unserem Hack im Bereich Quantenmedizin &amp; 
 
 #### Vorstellung
 
-Der Hack ist eine gemeinsame Initiative der Forschungsgruppe Medizin und Digitalisierung (Weblink), dem Imaging Netzwerk (Weblink) sowie dem Geschäftsbereich IT und Medizintechnik (Weblink). Die konkrete Ansprechpartner sind …
+Der Hack ist eine gemeinsame Initiative der [Forschungsgruppe Medizin und Digitalisierung](https://www.kneu.ovgu.de/MedDigit.html) Forschungsgruppe Medizin und Digitalisierung (Weblink), dem Nationalen Neuroimaging Netzwerk [Nationalen Neuroimaging Netzwerk](https://www.dzne.de/forschung/neuroimaging/) sowie dem [Geschäftsbereich IT und Medizintechnik](https://www.mrz.ovgu.de/). Die konkrete Ansprechpartner sind …
 
 | Einrichtung | Otto-von-Guericke-Universität Magdeburg | Deutsches Zentrum für Neurodegenerative Erkrankungen | Universitätsklinikum Magdeburg |
 | --- | --- | --- | --- |
