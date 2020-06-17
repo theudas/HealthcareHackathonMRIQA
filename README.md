@@ -55,19 +55,19 @@ Hardware
 
 _Datensatz_
 
-Als Datenbasis für den Hack dient uns der IXI-MRT-Datensatz. Bitte ladet euch unter dem nachstehenden Link die dort mit T1 und T2 gekennzeichneten Bilddaten herunter.
+Als Datenbasis für den Hack dient uns der IXI-MRT-Datensatz und zwar genauer gesagt die dort mit T1 und T2 gekennzeichneten Bilddaten. Wir nutzen nur einen Teil dieser beide Datensätze und zwar die des Hammersmith Hospital, diese tragen ein HH im Namen.
 
 [https://brain-development.org/ixi-dataset/](https://brain-development.org/ixi-dataset/)
 
-Wir nutzen nur einen Teil dieser beide Datensätze, deshalb entpackt bitte beide und zieht nur die Bilddaten des Hammersmith Hospital (diese tragen ein HH im Namen) heraus.
+Ihr könnt euch die Daten natürlich selbst herunterladen und aussortieren, ihr könnt aber auch einfach eines unserer Skripte nutzen. 
 
 _Skripte_
 
-Neben den Daten stellen wir euch auch ein paar Python-Skripte zur Verfügung. Der IXI-Datensatz hat insgesamt eine hohe Datenqualität, Aufnahmeartefakte sind praktisch nicht vorhanden. Um dennoch eine artefaktbehaftete Datenbasis erzeugen zu können, haben wir euch ein Skript geschrieben
+Der IXI-Datensatz hat insgesamt eine hohe Datenqualität, Aufnahmeartefakte sind praktisch nicht vorhanden. Um dennoch eine artefaktbehaftete Datenbasis erzeugen zu können, haben wir euch ein Skript geschrieben
 
 [To be linked]()
 
-Dieses Skript liest die heruntergeladenen Bilddaten und generiert neue Bilddaten inkl. zufälligen Artefakten. Zudem generiert dieses Skript für jedes erzeugte Bild die Information ob Artefakte hinzugefügt wurden und welche Artefakte das jeweils waren.
+Dieses Skript lädt die IXI-Bilddaten herunter und generiert neue Bilddaten inklusive zufälligen Artefakten. Zudem generiert dieses Skript für jedes erzeugte Bild die Information ob Artefakte hinzugefügt wurden und welche Artefakte das jeweils waren.
 
 Mit der nun passenden Datenbasis können wir auch schon starten. Um euch den Start zu erleichtern haben wir ein zweites Skript geschrieben, welches ein simples CNN mit PyTorch auf den erzeugten Daten trainiert.
 
@@ -76,6 +76,8 @@ Mit der nun passenden Datenbasis können wir auch schon starten. Um euch den Sta
 Eins vorweg, wir haben uns so garkeinen Kopf über die richtige Architektur und Parametrierung oder das Thema Data Augmentation gemacht, hier gibt es also noch deutliches Verbesserungspotential.
 
 _Schnellstarter_
+
+Beim abarbeiten der Schritte werde 
 
 Wem das die geschilderten Schritte zu lange dauern, der kann sich Arbeit ersparen in dem er sich seine eigene Anaconda Environment bauen lässt. Diese enthält das komplette Starterset inklusive aller Abhängigkeiten.
 
