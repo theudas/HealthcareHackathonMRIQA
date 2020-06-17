@@ -11,8 +11,8 @@ Der Hack ist eine gemeinsame Initiative der Forschungsgruppe Medizin und Digital
 | Einrichtung | Otto-von-Guericke-Universität Magdeburg | Deutsches Zentrum für Neurodegenerative Erkrankungen | Universitätsklinikum Magdeburg |
 | --- | --- | --- | --- |
 | Bereich | [Forschungsgruppe Medizin und Digitalisierung](https://www.kneu.ovgu.de/MedDigit.html) | [Nationalen Neuroimaging Netzwerk](https://www.dzne.de/forschung/neuroimaging/) | [Geschäftsbereich IT und Medizintechnik](https://www.mrz.ovgu.de/) |
-| Leitung | [Steffen Oeltze-Jafra](steffen.oeltze-jafra@med.ovgu.de)  | Emrah Düzel |  Robert Waschipky |
-| Ansprechpartner im Hack | [Max Dünnwald](max.duennwald@med.ovgu.de) | [Laura Dobisch](laura.dobisch@dzne.de) | [Marko Rak](marko.rak@med.ovgu.de) |
+| Leitung | [Steffen Oeltze-Jafra](mailto:steffen.oeltze-jafra@med.ovgu.de)  | Emrah Düzel |  Robert Waschipky |
+| Ansprechpartner | [Max Dünnwald](mailto:max.duennwald@med.ovgu.de) | [Laura Dobisch](mailto:laura.dobisch@dzne.de) | [Marko Rak](mailto:marko.rak@med.ovgu.de) |
 
 #### Motivation
 
@@ -31,7 +31,7 @@ Der Zeitplan des Hacks ist wiefolgt
 | 21.06. | 11:30 – 11:40 | Studioauftritt im GHH (Gutenberg Health Hub) |
 | 21.06. | Ab 12:00 | Start der Team Coachings |
 | 21.06. | Ab 12:00 | Start des Hacks |
-| 22.06. | TBD | Abgabe der Lösungen |
+| 22.06. | To be dated | Abgabe der Lösungen |
 | 22.06. | 12:00 – 13:00 | Prämierung der Teams |
 
 Der Hack startet offiziell am 21.06. ab 12:00. Alle notwendigen Materialen stehen jedoch schon jetzt online zur Verfügung, sodass Ihr euch einen kleinen Vorsprung verschaffen könnt.
@@ -65,17 +65,23 @@ Wir nutzen nur einen Teil dieser beide Datensätze, deshalb entpackt bitte beide
 
 _Skripte_
 
-Neben den Daten stellen wir euch auch ein paar Skripte zur Verfügung. Der IXI-Datensatz hat insgesamt eine hohe Datenqualität, Aufnahmeartefakte sind praktisch nicht vorhanden. Um dennoch eine artefaktbehaftete Datenbasis erzeugen zu können, haben wir euch ein Skript geschrieben
+Neben den Daten stellen wir euch auch ein paar Python-Skripte zur Verfügung. Der IXI-Datensatz hat insgesamt eine hohe Datenqualität, Aufnahmeartefakte sind praktisch nicht vorhanden. Um dennoch eine artefaktbehaftete Datenbasis erzeugen zu können, haben wir euch ein Skript geschrieben
 
 [To be linked]()
 
 Dieses Skript liest die heruntergeladenen Bilddaten und generiert neue Bilddaten inkl. zufälligen Artefakten. Zudem generiert dieses Skript für jedes erzeugte Bild die Information ob Artefakte hinzugefügt wurden und welche Artefakte das jeweils waren.
 
-Mit der nun passenden Datenbasis können wir auch schon starten. Um euch den Start zu erleichtern haben wir ein zweites Skript geschrieben, welches ein simples CNN auf den erzeugten Daten trainiert.
+Mit der nun passenden Datenbasis können wir auch schon starten. Um euch den Start zu erleichtern haben wir ein zweites Skript geschrieben, welches ein simples CNN mit PyTorch auf den erzeugten Daten trainiert.
 
 [To be linked]()
 
 Eins vorweg, wir haben uns so garkeinen Kopf über die richtige Architektur und Parametrierung oder das Thema Data Augmentation gemacht, hier gibt es also noch deutliches Verbesserungspotential.
+
+_Schnellstarter_
+
+Wem das die geschilderten Schritte zu lange dauern, der kann sich Arbeit ersparen in dem er sich seine eigene Anaconda Environment bauen lässt. Diese enthält das komplette Starterset inklusive aller Abhängigkeiten.
+
+[To be linked]()
 
 Ihr seid startbereit, meldet euch als Team bei [Marko Rak](marko.rak@med.ovgu.de) und dann kann es schon losgehen!
 
@@ -83,7 +89,7 @@ Ihr seid startbereit, meldet euch als Team bei [Marko Rak](marko.rak@med.ovgu.de
 
 Es geht um die Wurst. Wer am Ende des Hacks die beste Lösung hat wird mit Ruhm und Ehre überschüttet Nein, Scherz beiseite, jede Lösung und jeder Lösungsweg bringt uns ein Stück weit voran.
 
-Aber dennoch werden wir am Ende eine kleine Auswertung auf unseren eigenen echten Bilddaten machen und die beste Lösung/das beste Team prämieren 
+Aber dennoch werden wir am Ende eine kleine Auswertung auf unseren eigenen echten Bilddaten machen und die beste Lösung/das beste Team prämieren.
 
 #### Einreichung
 
