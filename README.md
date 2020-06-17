@@ -1,6 +1,4 @@
-# HealthcareHackathonMRIQA
-
-## Healthcare Hackathon Mainz 2020 - Intelligente Qualitätsanalyse von MRT Aufnahmen
+## HealthcareHackathonMRIQA - Intelligente Qualitätsanalyse von MRT Aufnahmen
 
 #OPENKI #MRIQA
 
@@ -110,10 +108,6 @@ Wir werden sehen wer das Rennen macht…
  |
  |
 | 03 |
- |
- |
- |
-| … |
  |
  |
  |
