@@ -12,6 +12,12 @@ Der Hack ist eine gemeinsame Initiative der Forschungsgruppe Medizin und Digital
 | Leitung | [Steffen Oeltze-Jafra](mailto:steffen.oeltze-jafra@med.ovgu.de)  | Emrah Düzel |  Robert Waschipky |
 | Ansprechpartner | [Max Dünnwald](mailto:max.duennwald@med.ovgu.de) | [Laura Dobisch](mailto:laura.dobisch@dzne.de) | [Marko Rak](mailto:marko.rak@med.ovgu.de) |
 
+Da wir uns nicht in Persona mit euch treffen können, haben wir für den Hack einen Raum im Videokonferenzsystem Zoom bereitgestellt. 
+
+[To be linked]()
+
+In diesem privaten Raum, werden euch die Ansprechpartner während des Hacks zur Verfügung stehen.
+
 #### Motivation
 
 Sowohl bei der Patientenversorgung als auch bei der Durchführung medizinischer Studien spielen Magnetresonanztomographien (MRTs) eine zunehmend wichtigere Rolle. Im Betrieb eines größeren Klinikums oder im Rahmen einer größeren Studie werden tausende von Aufnahmen pro Jahr durchgeführt. Am Universitätsklinikum Magdeburg allein über 11.000 Untersuchungen im Jahr 2019. Ein Teil dieser Aufnahmen stellt sich wegen Artefakten bei der Bildgebung im Nachhinein als qualitativ unzureichend heraus und muss damit ggf. wiederholt werden. Aufgrund der begrenzten MRT-Zeit und hohen MRT-Kosten ist es das Ziel jedes Klinikums/jeder Studie die Anzahl an qualitative unzureichenden Aufnahmen durch Verbesserung des Prozessablaufes, des Personalschulung, der MRT-Parameter usw. zu senken. Als erster Schritt gilt es allerdings dieses Problem ersteinmal erkennen und quantifizieren zu können und dies möglichst vollautomatisch. Darum geht es uns bei diesem Hack.
@@ -83,7 +89,7 @@ Wem das die geschilderten Schritte zu lange dauern, der kann sich Arbeit erspare
 
 [To be linked]()
 
-Ihr seid startbereit, meldet euch als Team bei [Marko Rak](marko.rak@med.ovgu.de) und dann kann es schon losgehen!
+Ihr seid startbereit, meldet euch als Team bei Marko Rak und dann kann es schon losgehen!
 
 #### Prämierung
 
