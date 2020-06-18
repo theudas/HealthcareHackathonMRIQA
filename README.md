@@ -14,7 +14,7 @@ Der Hack ist eine gemeinsame Initiative der Forschungsgruppe Medizin und Digital
 
 Da wir uns nicht in persona mit euch treffen können, haben wir für den Hack einen Raum im Videokonferenzsystem Zoom bereitgestellt. 
 
-[To be linked]()
+[https://ovgu.zoom.us/j/99914063041](https://ovgu.zoom.us/j/99914063041)
 
 In diesem privaten Raum, werden euch die Ansprechpartner während des Hacks zur Verfügung stehen.
 
