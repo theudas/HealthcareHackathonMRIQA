@@ -16,7 +16,7 @@ Da wir uns nicht in persona mit euch treffen können, haben wir für den Hack ei
 
 [https://ovgu.zoom.us/j/99914063041](https://ovgu.zoom.us/j/99914063041)
 
-In diesem privaten Raum, werden euch die Ansprechpartner während des Hacks zur Verfügung stehen.
+In diesem privaten Raum, werden euch die Ansprechpartner während des Hacks zur Verfügung stehen. Das Raum-Passwort wird zu Beginn des Hackathons verteilt. Falls Ihr es nicht erhalten habt, dann fragt uns bitte direkt an.
 
 #### Motivation
 
