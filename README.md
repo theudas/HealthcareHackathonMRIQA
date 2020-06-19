@@ -101,11 +101,11 @@ Aber dennoch werden wir am Ende eine kleine Auswertung auf unseren eigenen echte
 
 #### Einreichung
 
-Sobald eure Lösung einen Stand erreicht hat, den Ihr einreichen wollt, dann committed doch bitte hier im GitHub-Projekt eure Lösung im für euer Team vorgesehenen Bereich. Wenn es die Zeit zulässt machen wir vielleicht schon einen kleinen Testlauf von eure Lösung auf unseren Bilddaten und teilen euch mit wie gut Ihr seid, wer weiß das schon.
+Sobald eure Lösung einen Stand erreicht hat, den Ihr einreichen wollt, dann lasst uns doch bitte eure Lösung zukommen. Wenn es die Zeit zulässt machen wir vielleicht schon einen kleinen Testlauf von eurer Lösung auf unseren Bilddaten und teilen euch mit wie gut Ihr seid, wer weiß das schon. Alle Lösungen werden wir hier sammeln.
 
 [Einreichung](https://github.com/mduennwald/HealthcareHackathonMRIQA/tree/master/einreichungen)
 
-Euer Skript bzw. eure Skripte sollte möglichst genauso funktionieren wie das von uns zur Verfügung gestellt CNN-Skript CNN, damit wir keinen Aufwand bei der Anpassung auf unsere Daten haben.
+Euer Skript bzw. eure Skripte sollte möglichst genauso funktionieren, wie die von uns zur Verfügung gestellt Skripte, damit wir keinen Aufwand bei der Anpassung auf unsere Daten haben.
 
 #### Endergebnis
 
