@@ -71,23 +71,25 @@ _Skripte_
 
 Der IXI-Datensatz hat insgesamt eine hohe Datenqualität, Aufnahmeartefakte sind praktisch nicht vorhanden. Um dennoch eine artefaktbehaftete Datenbasis erzeugen zu können, haben wir euch ein Skript geschrieben
 
-[To be linked]()
+[mriqa_dataset.py](https://github.com/mduennwald/HealthcareHackathonMRIQA/blob/master/starterset/mriqa_dataset.py)
 
-Dieses Skript lädt die IXI-Bilddaten herunter und generiert neue Bilddaten inklusive zufälligen Artefakten. Zudem generiert dieses Skript für jedes erzeugte Bild die Information ob Artefakte hinzugefügt wurden und welche Artefakte das jeweils waren.
+Dieses Skript stellt Methoden zur Verfügung, welche es erlauben um auf die IXI-Bilddaten zuzugreifen und neue Bilddaten inklusive zufälligen Artefakten zu generieren.
 
-Mit der nun passenden Datenbasis können wir auch schon starten. Um euch den Start zu erleichtern haben wir ein zweites Skript geschrieben, welches ein simples CNN mit PyTorch auf den erzeugten Daten trainiert.
+Mit der passenden Datenbasis können wir auch schon fast starten. Was wir noch brauchen ist ein Stück künstliche Intelligenz, welche wir auf das Problem loslassen können. Um euch einen ersten Anhaltspunkt zu geben, haben wir euch ein einfaches CNN vorbereitet.
 
-[To be linked]()
+[networks.py](https://github.com/mduennwald/HealthcareHackathonMRIQA/blob/master/starterset/networks.py)
+
+Wir haben Daten und künstliche Intelligenz, jetzt werfen wir alles in einen Topf und mengen das Ganze stundenlang durch bis hoffentlich irgendwas sinnvolles herausgekommen ist. Ein entsprechendes Skript für dieses Rezept findet ihr hier.
+
+[training.py](https://github.com/mduennwald/HealthcareHackathonMRIQA/blob/master/starterset/training.py)
 
 Eins vorweg, wir haben uns so garkeinen Kopf über die richtige Architektur und Parametrierung oder das Thema Data Augmentation gemacht, hier gibt es also noch deutliches Verbesserungspotential.
 
 _Schnellstarter_
 
-Beim abarbeiten der Schritte werde 
+Beim ersten Starten des Trainings werdet Ihr vermutlich feststellen, dass Ihr vielleicht noch nicht alle Abhängigkeiten installiert habt. Wer keine Lust hat die Abhängigkeiten selbst zu installieren, der kann sich Arbeit ersparen in dem er sich seine eigene Anaconda Environment bauen lässt.
 
-Wem das die geschilderten Schritte zu lange dauern, der kann sich Arbeit ersparen in dem er sich seine eigene Anaconda Environment bauen lässt. Diese enthält das komplette Starterset inklusive aller Abhängigkeiten.
-
-[To be linked]()
+[conda_instructions](https://github.com/mduennwald/HealthcareHackathonMRIQA/blob/master/starterset/conda_instructions)
 
 Ihr seid startbereit, meldet euch als Team bei Marko Rak und dann kann es schon losgehen!
 
