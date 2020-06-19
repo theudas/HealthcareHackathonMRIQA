@@ -1,6 +1,7 @@
-import os
-os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+# GPU choice
+# import os
+# os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 import torch
 import random
@@ -13,6 +14,7 @@ from tqdm import tqdm
 from mriqa_dataset import MRIQADataset
 from networks import ClassicCNN
 
+
 # set random seeds for reproducibility
 random.seed(21062020)
 np.random.seed(21062020)
@@ -22,7 +24,7 @@ torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 
 
-if __name__ == '__main__':
+def train():
     num_epochs = 500
     batch_size = 8
     loss_csv = open('losses.csv', 'w')
@@ -92,3 +94,7 @@ if __name__ == '__main__':
                         'loss': validation_loss.item()}, 'checkpoint_best')
             best_val_loss = mean_validation_loss
     print('DONE.')
+
+    
+if __name__ == '__main__':
+    train()
