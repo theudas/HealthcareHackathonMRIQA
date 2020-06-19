@@ -1,0 +1,16 @@
+name: MRIQA
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - cudatoolkit=10.1
+  - python=3.7
+  - pytorch=1.5
+  - numpy
+  - tqdm
+  - pip:
+    - torchvision==0.6.0
+    - torchio==0.16.20
