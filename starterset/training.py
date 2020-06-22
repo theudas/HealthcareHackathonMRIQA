@@ -9,7 +9,7 @@ import numpy as np
 import torch.optim as optim
 from torch.utils.data import DataLoader
 from torch.nn import CrossEntropyLoss
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
 from mriqa_dataset import MRIQADataset
 from networks import ClassicCNN
@@ -23,6 +23,10 @@ torch.cuda.manual_seed(21062020)
 torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 
+print(torch.cuda.current_device())
+torch.cuda.set_device(0)
+
+
 
 def train():
     num_epochs = 500
@@ -33,8 +37,8 @@ def train():
     # create dataset (automatically downloads IXI at first run)
     dataset = MRIQADataset(
         '.',    # path to save data to
-        modalities=('T1', 'T2'),
-        download=True,
+        modalities=(['T1', 'T2']),
+        download=False,
     )
 
     # split data into training and validation sets
@@ -42,20 +46,23 @@ def train():
     train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True)
     validation_loader = DataLoader(validation_set, batch_size=batch_size, shuffle=True)
 
+    x_train, y_train =  
+
     net = ClassicCNN(num_classes=5)
     net = net.cuda()
+    
     optimizer = optim.Adam(net.parameters())
     ce = CrossEntropyLoss().cuda()
 
     num_mini_batches = len(train_loader)
     best_val_loss = 999
+    print("start training")
     for epoch in range(num_epochs):
         epoch_loss = 0.0
         net.train()
 
         # train loop
-        pbar = tqdm(train_loader, total=len(train_loader))
-        for sample, label in pbar:
+        for sample, label in tqdm(train_loader, total=len(train_loader)):
             sample = sample.cuda()
             label = label.cuda()
 
@@ -65,6 +72,7 @@ def train():
             optimizer.step()
 
             epoch_loss += loss.item()
+
         print('[{}] train-loss: {}'.format(epoch, epoch_loss / num_mini_batches))
         loss_csv.write(str(epoch) + ',' + str(epoch_loss / num_mini_batches))
         loss_csv.flush()
@@ -73,6 +81,7 @@ def train():
         net.eval()
         mean_validation_loss = 0
         num_validation_mini_batches = len(validation_loader)
+
         with torch.no_grad():
             pbar = tqdm(validation_loader, total=len(validation_loader))
             for sample, label in pbar:
@@ -86,6 +95,7 @@ def train():
             print('[{}] validation-loss: {}'.format(epoch, mean_validation_loss / num_validation_mini_batches))
             loss_csv.write(',' + str(mean_validation_loss / num_validation_mini_batches) + '\n')
             loss_csv.flush()
+
         # save best model
         if mean_validation_loss <= best_val_loss:
             torch.save({'epoch': epoch,
@@ -93,6 +103,7 @@ def train():
                         'optimizer_state_dict': optimizer.state_dict(),
                         'loss': validation_loss.item()}, 'checkpoint_best')
             best_val_loss = mean_validation_loss
+
     print('DONE.')
 
     
