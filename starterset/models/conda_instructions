@@ -1,0 +1,4 @@
+- install anaconda
+- run: conda create -n MRIQA python=3.7
+- run: conda env update -n MRIQA -f mriqa_environment.yml
+- enter "MRIQA" environment: conda activate MRIQA
